@@ -1,12 +1,9 @@
 /* default styling */
 *{
-  /*border:1px solid black;*/
   font-family: arial;
   font-size: 12px;
 }
-/*nav{
-  display: inline;
-}*/
+
 /* nav */
 nav{
   color:#404040;
@@ -17,10 +14,12 @@ nav ul{
   position: fixed;
   top: 0;
   width: 100%;
+  padding-left: 30px;
+  margin-top:10px;
+  font-size: 14px;
 }
 nav ul li{
   list-style-type: none;
-  margin: 10px;
   padding: 10px;
   display: inline-block;
   float:right;
@@ -29,30 +28,28 @@ nav ul li{
   height: 30px;
 
 }
+
+nav ul li a {
+  font-size: 13px;
+}
+
 a{
   margin: auto;
   text-decoration: none;
-  font-family: arial;
   color:#404040;
-  font-size: 12px;
   display: block;
   margin-top: 4px;
 
 }
-/*ul li span{
-display: inline-block;
-}
 
-ul li img{
-  display: inline-block;
-}*/
+a:hover {
+  text-decoration: underline;
+}
 
 .user_pic{
   position: relative;
   top:-5px;
   right:3px;
-  /*height: 30px;
-  width: 30px;*/
   margin-right:40px;
   border-radius: 15px;
 }
@@ -60,27 +57,24 @@ ul li img{
 /* main-content */
 .main-content{
   margin: auto;
-  margin-top:200px;
-  padding:20px;
-
+  margin-top:150px;
 }
+
 .main-content img{
   display: block;
   margin: auto;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .main-content input{
   border:1px solid #C5C5C5;
-  width: 600px;
-  height: 30px;
+  width: 550px;
+  height: 35px;
   display: block;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
   background: url(./assets/microphone.png) no-repeat right center;
-  /*background-size: 30px 25px;*/
 }
 
 .main-content input:hover{
@@ -93,9 +87,8 @@ ul li img{
 
 .btn-main {
   border: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 200px;
+  margin-top: 10px;
+  width: 130px;
   padding: 12px;
   background-color: #F5F5F5;
   font-weight: bold;
@@ -111,7 +104,7 @@ ul li img{
 
 
 .btn-container{
-width:405px;
+width:265px;
 margin: auto;
 }
 
